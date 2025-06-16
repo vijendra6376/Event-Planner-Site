@@ -1,9 +1,10 @@
 import Wrapper from "./style";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import contact from "../assets/contact.jpg"
 const Contact = () => {
   return (
     <Wrapper>
+      
       <div className="sections">
         {/* Left Column */}
         <div className="getintouch">

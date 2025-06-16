@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState } from 'react'
 import './App.css'
 import AboutUs from './components/AboutUs'
@@ -7,6 +8,18 @@ function App() {
   return (
     <>
     <AboutUs></AboutUs>
+=======
+import Contact from './components/Contact Us'
+import Navbar from './components/Navbar'
+import Services from './components/Services'
+import Home from './components/Home'
+import AboutUs from './components/About Us'
+import Gallery from './components/Gallery'
+function App() {
+  return (
+    <>
+  <Contact></Contact>
+>>>>>>> origin/Vijendra
     </>
   )
 }
