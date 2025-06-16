@@ -7,10 +7,13 @@ import hospitality from "../assets/hospitality.png";
 import hamper from "../assets/hamper.png";
 import camera from "../assets/camera.png";
 import placeholder from "../assets/placeholder.png";
+// import ourServices from "../assets/ourServices.jpg"
+import image from "../assets/338.jpg"
 
 const Services = () => {
   return (
     <Wrapper>
+      <img src={image} alt="" className="ourServices" />
       <div className="heading">Our Services</div>
       <div className="services">
         <div className="service-item">

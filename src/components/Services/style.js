@@ -28,6 +28,14 @@ const Wrapper = styled.section`
   padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
 
+  ourServices{
+  width: '100%',
+    height: 'auto',
+    objectFit: 'cover',
+    objectPosition: 'top'
+
+  }
+
   .heading {
     color: #b38639;
     font-size: 32px;
@@ -53,8 +61,9 @@ const Wrapper = styled.section`
     opacity: 0;
 
     &:hover {
-      transform: scale(1.25);
+      transform: scale(2.25);
     }
+
 
     .icon-wrapper {
       position: relative;

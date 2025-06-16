@@ -19,11 +19,11 @@ const Wrapper = styled.section`
   align-items: center;
   padding: 0.4rem 2rem; /* Reduced padding */
   background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  // backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  border-bottom: 1px solid rgba(230, 220, 200, 0.5);
+  // border-bottom: 1px solid rgba(230, 220, 200, 0.5);
   height: 70px; /* Optional: fix navbar height */
 }
 
