@@ -22,6 +22,7 @@ const slideInRight = keyframes`
   }
 `;
 
+
 const Wrapper = styled.section`
   padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -33,6 +34,7 @@ const Wrapper = styled.section`
     gap: 40px;
     flex-wrap: wrap;
   }
+
 
   .getintouch {
     flex: 1;

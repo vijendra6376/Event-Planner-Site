@@ -54,7 +54,69 @@ const Wrapper = styled.div`
 
   .about-founder{
   font-size: 19px;
+  
   }
+  .founder-detial{
+  color: #555;
+  font-size: 19px;
+  }
+.founder-heading{
+margin-bottom: -10px;
+font-weight: bold;
+font-size: 30px
+}
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;         /* Horizontally center content */
+  justify-content: center;     /* Vertically center if height is set */
+  text-align: center;
+  padding: 40px 40px;          /* Top-bottom and left-right padding */
+  max-width: 800px;
+  margin: 0 auto;  
+  margin-top: 60px;   
+  margin-bottom: -50px;         /* Center the whole block */
+}
+
+.heading {
+ font-size: 10px
+  font-weight: bold;
+ font-size: 40px;
+  color: #b38639;
+}
+
+.journey-detial {
+ 
+  color: #555;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+ .vision-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  gap: 20px; /* space between lines and text */
+}
+
+.vision {
+  padding: 12px 20px;
+  background-color: #b38639;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  max-width: 550px;
+  font-weight: 500;
+}
+
+.vision-line {
+  flex: 1;
+  height: 1px;
+  background-color: #b38639;
+}
+
 
   @media (max-width: 768px) {
     .upper-about {
@@ -68,6 +130,22 @@ const Wrapper = styled.div`
     .image {
       width: 100%;
     }
+      .heading {
+    font-size:;
+  }
+
+  .journey-detial {
+    font-size: ;
+  }
+     .vision-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .vision-line {
+    width: 60%;
+    height: 1px;
+  
   }
 `
 

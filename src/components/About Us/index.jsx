@@ -23,20 +23,33 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+      <div className="journey">
+        <h1 className="heading">When did our journey begin?...</h1>
+        <p className="journey-detial">With about 5 years of experience in the events industry, our founder Ankit Yadav decided to start his own venture Anshi Events in the year February 2024. Our mission is to bring people together through memorable events. Insight, empathy and a service-minded ethos lie at the core of the business.</p>
+       </div>
       <div className ="founder">
+         
        <div><img src = {photo1} alt = "photo1" className = "profile"></img></div>
+      
        <div className = "about-founder">
-        <p>About our founder</p>
+        <p className="founder-heading">About our founder</p>
         <h3>Ankit Bhaiya</h3>
-        <p>
+        <p className="founder-detial">
              Welcome to the heart of celebration and creativity — welcome to
             Anshi Events. We’re dedicated to transforming your significant
             moments into cherished memories, with a steadfast focus on customer
             satisfaction and nurturing enduring relationships. Integrity,
             honesty, and the safeguarding of our clients reputations stand at
             the core of our approach.
-          </p></div>
+          </p>
+          </div>
+  
       </div>
+              <div className="vision-container">
+  <div className="vision-line"></div>
+  <h1 className="vision">We Curate Special Moments into Memories</h1>
+  <div className="vision-line"></div>
+</div>
     </Wrapper>
   )
 }
