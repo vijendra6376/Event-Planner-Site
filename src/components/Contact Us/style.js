@@ -121,6 +121,10 @@ const Wrapper = styled.section`
       background-color: #6e3c1c;
     }
   }
+    .map{
+    max-width: 450px;
+    height: 30px
+    }
 
   /* 📱 Mobile Styles */
   @media screen and (max-width: 767px) {
@@ -151,6 +155,10 @@ const Wrapper = styled.section`
     textarea {
       font-size: 15px;
     }
+      .map{
+      max-width: 300px;
+      height: 300px;
+      }
   }
 `;
 

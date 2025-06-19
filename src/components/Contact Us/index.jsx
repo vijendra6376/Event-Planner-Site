@@ -28,8 +28,6 @@ const Contact = () => {
             </p>
           </div>
         </div>
-
-        {/* Right Column */}
         <div className="connectform">
           <h2>Connect With Us</h2>
           <form action="https://getform.io/f/bjjordmb" method="POST">
@@ -43,6 +41,20 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <div className="map" style={{ width: "100%" }}>
+  <iframe
+    width="100%"
+    height="400"
+    frameBorder="0"
+    scrolling="no"
+    marginHeight="0"
+    marginWidth="0"
+    src="https://maps.google.com/maps?width=100%25&height=400&hl=en&q=nk%20technologies+(Anshi%20Events)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+    title="Anshi Events Location"
+  ></iframe>
+</div>
+
+      
     </Wrapper>
   );
 };
