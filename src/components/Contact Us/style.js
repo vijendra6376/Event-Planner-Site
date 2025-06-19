@@ -33,6 +33,8 @@ const Wrapper = styled.section`
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+    padding-top: 70px;
+    margin-right:30px;
   }
 
 
