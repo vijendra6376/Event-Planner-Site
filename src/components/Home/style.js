@@ -3,10 +3,10 @@ import styled from "styled-components";
 const Wrapper = styled.section`
 video{
 object-fit: contain;
-max-width: 100%;
 height: auto;
+max-width: 100%;
 display: block;
-margin: 0 auto;
+margin-bottom: 40px;
 }
 
 .section1{
@@ -14,11 +14,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-max-width: 60%;
+max-width: 90%;
+width: 60%;
 align-self: center;
 margin: auto;
 text-align: center;
+
+@media (max-width: 768px){
+width: 90%;
 }
+}
+
 .section2{
 display: flex;
 flex-direction: column;
@@ -29,14 +35,19 @@ align-self: center;
 margin: auto;
 text-align: center;
 }
+
 h1{
 color: #ad844b;
-font-size: 45px;
+font-size: 50px;
 font-style: italic;
+font-family: "Great Vibes", Sans-serif;
+font-weight: 500;
 }
+
 p{
 color: #5d6e5e;
 }
+
 .carousel-container {
 margin-top: 50px;
   overflow: hidden;
@@ -47,7 +58,7 @@ margin-top: 50px;
 
 .carousel-track {
   display: flex;
-  width: calc(200px * 6); /* 6 images * width */
+  width: calc(200px * 6); 
   animation: scroll 5s linear infinite;
   gap: 80px;
 }

@@ -11,11 +11,10 @@ export default function Navbar() {
   return (
     <Wrapper>
       <nav className='Navbar'>
-        <div className='Left'>
+        <div className="Left">
           <img src={logo} alt="logo" className="logo" />
         </div>
 
-        {/* Hamburger Button */}
         <div className="hamburger" onClick={toggleMenu}>
           <div className="bar"></div>
           <div className="bar"></div>

@@ -27,12 +27,14 @@ const Wrapper = styled.section`
   padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
+  height: 84vh;
 
   .sections {
     display: flex;
     justify-content: space-between;
     gap: 40px;
     flex-wrap: wrap;
+    margin-top: 100px;
   }
 
 

@@ -25,23 +25,22 @@ const slideInRight = keyframes`
 
 const Wrapper = styled.section`
   background-color: rgb(255, 255, 255);
-  padding: 40px 20px;
+  // padding: 40px 20px;
   font-family: 'Segoe UI', sans-serif;
 
-  ourServices{
-  width: '100%',
-    height: 'auto',
-    objectFit: 'cover',
-    objectPosition: 'top'
-
+  .ourServices{
+  width: 100%;
+  object-fit: contain;
+  height: auto;
   }
 
   .heading {
+  font-family: "Great Vibes", Sans-serif;
     color: #b38639;
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 40px;
   }
 
   .services {

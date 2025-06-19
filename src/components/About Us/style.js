@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   .upper-about {
@@ -19,8 +19,9 @@ const Wrapper = styled.div`
     background-color: rgb(220, 203, 172);
     padding: 1rem;
     border-radius: 10px;
-    max-width: 400px;
+    // max-width: 400px;
     // height: 500px;
+    width: 400px;
     color: #2f2f2f;
     margin-left: -50px;
   }
@@ -29,7 +30,6 @@ const Wrapper = styled.div`
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: #3e2d27;
   }
 
   .about p {
@@ -38,13 +38,27 @@ const Wrapper = styled.div`
     text-align: justify;
   }
 
-  .founder{
+  .founder {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
-  margin: 150px;
+  margin: 120px auto;
+  width: 100%;
+  max-width: 900px; 
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .founder {
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 10px;
   }
+}
 
   .profile{
   border-radius: 50%;
@@ -53,40 +67,50 @@ const Wrapper = styled.div`
   }
 
   .about-founder{
-  font-size: 19px;
-  
+  font-size: 16px;
   }
+
   .founder-detial{
   color: #555;
   font-size: 19px;
   }
+
 .founder-heading{
-margin-bottom: -10px;
-font-weight: bold;
-font-size: 30px
+margin: 20px;
+padding-left:20px;
+color: #555;
 }
+
 .journey {
   display: flex;
   flex-direction: column;
-  align-items: center;         /* Horizontally center content */
-  justify-content: center;     /* Vertically center if height is set */
+  align-items: center;        
+  justify-content: center;  
   text-align: center;
-  padding: 40px 40px;          /* Top-bottom and left-right padding */
+  padding: 40px 40px;         
   max-width: 800px;
   margin: 0 auto;  
   margin-top: 60px;   
-  margin-bottom: -50px;         /* Center the whole block */
+  margin-bottom: -50px;      
+}
+
+h4{
+color: #b38639;
+font-family: "Great Vibes", Sans-serif;
+font-weight: 500;
+font-size: 40px;
 }
 
 .heading {
- font-size: 10px
-  font-weight: bold;
- font-size: 40px;
-  color: #b38639;
+font-family: "Great Vibes", Sans-serif;
+// font-size: 50px;
+font-weight: 500;
+font-size: 40px;
+word-spacing: 4px;
+color: #b38639;
 }
 
 .journey-detial {
- 
   color: #555;
   line-height: 1.6;
   font-size: 18px;
@@ -96,9 +120,9 @@ font-size: 30px
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  gap: 20px; /* space between lines and text */
+  margin-top: 90px;
+  // margin-bottom: 20px;
+  gap: 10px;
 }
 
 .vision {
@@ -112,8 +136,8 @@ font-size: 30px
 }
 
 .vision-line {
-  flex: 1;
   height: 1px;
+  width: 270px;
   background-color: #b38639;
 }
 
@@ -124,28 +148,35 @@ font-size: 30px
     }
 
     .about {
-      width: 100%;
+     width: 90%;
+     margin: -20px -20px 20px 10px;
     }
 
     .image {
-      width: 100%;
+      width: 90%;
+      height: 90%;
     }
-      .heading {
-    font-size:;
+
+    .heading {
+      margin-top: -40px;
   }
 
-  .journey-detial {
+    .journey-detial {
     font-size: ;
   }
-     .vision-container {
+    .vision-container {
     flex-direction: column;
     gap: 10px;
+    margin: 60px 10px 30px 10px;
   }
 
   .vision-line {
     width: 60%;
     height: 1px;
-  
+  }
+
+  .founder-heading, h4{
+   margin-left: 70px;
   }
 `
 
