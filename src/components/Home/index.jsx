@@ -14,16 +14,35 @@ import cor5 from "../assets/cor5.jpg";
 
 
 import consultation from "../assets/counciling.png";
+import logo from "../assets/Logo.png";
 import budget from "../assets/finance.png";
 import venue from "../assets/location.png";
 import coordination from "../assets/coordination.png";
 import execution from "../assets/administration.png";
 import Wrapper from './style'
-import { Route, Routes } from 'react-router';
+import {  useNavigate } from 'react-router';
 export default function index() {
+  const navigate = useNavigate();
+
   return (
     <Wrapper>
+
+
     <div className="FrontPage">
+            <div className="hero">
+  <video className="hero-video" src={video} autoPlay loop muted />
+  <div className="hero-overlay">
+    <img src={logo} alt="logo" className="hero-logo" />
+    <h1 className="hero-title">Anshi Events</h1>
+    <h2 className="hero-subtitle">Your Moment, Our Royal Touch</h2>
+    <p className="hero-text">
+      From traditional Indian weddings to corporate events, we bring your dreams to life with unmatched elegance and attention to detail.
+    </p>
+    <button className="hero-button" onClick={()=> navigate('/contact')}>
+      Plan Your Event <span></span>
+    </button>
+  </div>
+</div>
       <video src={video} autoPlay loop muted></video>
     </div>
     <div className='section1'>
