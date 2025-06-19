@@ -43,7 +43,7 @@ export default function index() {
     </button>
   </div>
 </div>
-      <video src={video} autoPlay loop muted></video>
+    {/* <video src={video} autoPlay loop muted></video> */}
     </div>
     <div className='section1'>
       <h1>Weddings</h1>

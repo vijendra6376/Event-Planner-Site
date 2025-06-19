@@ -220,7 +220,8 @@ margin-top: 50px;
 }
 
 .hero-button:hover {
-  background-color: ;
+  background-color: #ad844b;
+  
 }
 
 /* Responsive */
